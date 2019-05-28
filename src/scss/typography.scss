@@ -1,0 +1,49 @@
+@import 'scss/constants.scss';
+
+@mixin font-hero {
+  font-family: $font-family-heading;
+  font-weight: 900;
+  font-style: normal;
+  font-size: calc(48px + 4.5vmin);
+  line-height: 1.2;
+}
+
+@mixin font-heading-1 {
+  font-family: $font-family-heading;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+@mixin font-heading-2 {
+  font-family: $font-family-heading;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+@mixin font-heading-3 {
+  font-family: $font-family-heading;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 1.2;
+}
+
+@mixin font-body {
+  font-family: $font-family-body;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+@mixin font-small {
+  font-family: $font-family-body;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.5;
+}

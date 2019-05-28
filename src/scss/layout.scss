@@ -1,0 +1,7 @@
+@import 'scss/constants.scss';
+
+@mixin constrain {
+  width: $page-width;
+  max-width: $page-width-max;
+  margin: 0 auto;
+}

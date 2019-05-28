@@ -1,0 +1,23 @@
+@import 'scss/constants.scss';
+@import 'scss/layout.scss';
+
+.constrain {
+  @include constrain;
+}
+
+.spacedBlock {
+  &.narrow {
+    margin-top: $spacing-m;
+    margin-bottom: $spacing-m;
+  }
+
+  &.regular {
+    margin-top: $spacing-l;
+    margin-bottom: $spacing-l;
+  }
+
+  &.wide {
+    margin-top: $spacing-xl;
+    margin-bottom: $spacing-xl;
+  }
+}
